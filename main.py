@@ -43,8 +43,12 @@
 # from arrays.maximum_sub_array import max_sub_array
 # from arrays.maximum_sub_array import max_sub_array_sum
 # from arrays.majority_element import majority_element
-from arrays.wave_array import wave_array
-
+# from arrays.wave_array import wave_array
+# from arrays.maximum_index import max_index
+# from arrays.maximum_index import max_index_optimized
+# from arrays.max_sum_path import max_sum_path
+# from arrays.product_array import product_array
+from arrays.print_duplicates import print_duplicates
 
 # MATHS
 # printTable(9);
@@ -94,4 +98,9 @@ from arrays.wave_array import wave_array
 # print(max_sub_array_sum([-2, -3, 4, -1, -2, 1, 5, -3]))
 # print(max_sub_array([-2, -3, 4, -1, -2, 1, 5, -3]))
 # print(majority_element([1, 2, 3, 3, 1, 3, 3]))
-print(wave_array([5,7,3,2,8]))
+# print(wave_array([5,7,3,2,8]))
+# print(max_index([3, 5, 4, 2]))
+# print(max_index_optimized([3, 5, 4, 2]))
+# print(max_sum_path([2, 3, 7, 10, 12, 15, 30, 34], [1, 5, 7, 8, 10, 15, 16, 19]))
+# print(product_array([10, 3, 5, 6, 2]))
+print(print_duplicates([2, 3, 1, 2, 3]))
