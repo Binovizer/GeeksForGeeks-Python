@@ -48,11 +48,17 @@
 # from arrays.maximum_index import max_index_optimized
 # from arrays.max_sum_path import max_sum_path
 # from arrays.product_array import product_array
-from arrays.print_duplicates import print_duplicates
+# from arrays.print_duplicates import print_duplicates
+# from arrays.buy_sell_stocks import buy_sell_stocks
+# from arrays.trapping_rain_water import water
+# from arrays.pair_with_given_sum import find_pairs
+# from arrays.chocolate_distribution_problem import find_diff
+from arrays.longest_subsequence import get_length
 
 # MATHS
 # printTable(9);
 # print(gp(1, 2, 2))
+
 # closest_number(9, 2);
 # print(is_armstrong(input()))
 # print(is_armstrong_number(int(input())))
@@ -103,4 +109,16 @@ from arrays.print_duplicates import print_duplicates
 # print(max_index_optimized([3, 5, 4, 2]))
 # print(max_sum_path([2, 3, 7, 10, 12, 15, 30, 34], [1, 5, 7, 8, 10, 15, 16, 19]))
 # print(product_array([10, 3, 5, 6, 2]))
-print(print_duplicates([2, 3, 1, 2, 3]))
+# print(print_duplicates([2, 3, 1, 2, 3]))
+# print(buy_sell_stocks([23, 13, 25, 29, 33, 19, 34, 45, 65, 67]))
+# print(buy_sell_stocks([100, 180, 260, 310, 40, 535, 695]))
+# print(water([6, 9, 9]))
+# print(find_pairs([1, 3, 4, 7, 9, 12, 15, 16], 96))
+# print(find_diff([7, 3, 2, 4, 9, 12, 56], 3))
+print(get_length([86, 77, 15, 93, 35, 86, 92, 49, 21, 62, 27, 90, 59, 63, 26, 40, 26, 72, 36, 11, 68, 67,
+                  29, 82, 30, 62, 23, 67, 35, 29, 2, 22, 58, 69, 67, 93, 56, 11, 42, 29, 73, 21, 19, 84,
+                  37, 98, 24, 15, 70, 13, 26, 91, 80, 56, 73, 62, 70, 96, 81, 5, 25, 84, 27, 36, 5, 46,
+                  29, 13, 57, 24, 95, 82, 45, 14, 67, 34, 64, 43, 50, 87, 8, 76, 78, 88]))
+print(get_length([]))
+
+
