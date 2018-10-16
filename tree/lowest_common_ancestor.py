@@ -1,0 +1,2 @@
+def lca(tree):
+    pass
